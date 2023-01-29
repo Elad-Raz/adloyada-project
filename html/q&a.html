@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../scss/bootstrap.css" />
+    <title>שאלות ותשובות</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary my-navbar">
+        <div class="container-fluid my-navbar">
+          <img src="../pic/holon-logo.png" alt="עיריית ניו-חולון" />
+          <a class="navbar-brand" href="#">עדלאידע ניו-חולון, כאן זה הבית</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html"
+                  >עמוד הבית</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">על האירוע</a>
+              </li>
+              <!-- <li class="nav-item dropdown"> 
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>-->
+              <li class="nav-item">
+                <a class="nav-link" href="./media.html">מדיה</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./q&a.html">שאלות ותשובות</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact-us.html">צור קשר</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="q-and-a-wrap">
+        <div class="contact-link">
+          <p>
+            יש לכם שאלות נוספות? מוזמנים ליצור איתנו קשר
+
+            <a
+              href="./contact-us.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >כאן
+            </a>
+          </p>
+        </div>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading1">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse1"
+                aria-expanded="false"
+                aria-controls="flush-collapse1"
+              >
+                מתי יתקיים אירוע העדלאידע של ניו-חולון?
+              </button>
+            </h2>
+            <div
+              id="flush-collapse1"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-heading1"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                האירוע יתקיים לכל אורכו של חג הפורים, משעה 9:00 ועד 17:30 בכל
+                יום עד לסיום החג.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading2">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse2"
+                aria-expanded="false"
+                aria-controls="flush-collapse2"
+              >
+                מהי עלות הכניסה לאירוע?
+              </button>
+            </h2>
+            <div
+              id="flush-collapse2"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-heading2"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                הכניסה היא חינם לכל הגילאים, ולא רק לתושבי ניו-חולון.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading3">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse3"
+                aria-expanded="false"
+                aria-controls="flush-collapse3"
+              >
+                האם חובה להגיע לאירוע מחופשים?
+              </button>
+            </h2>
+            <div
+              id="flush-collapse3"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-heading3"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                בכלל לא, אך אין ספק כי להגיע מחופשים יתרמנו להנאה מהאירוע.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading5">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse5"
+                aria-expanded="false"
+                aria-controls="flush-collapse5"
+              >
+                מהם דרכי ההגעה לאירוע?
+              </button>
+            </h2>
+            <div
+              id="flush-collapse5"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-heading5"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                בשל העובדה כי מגיעים מבקרים רבים לאירוע, אנו ממליצים על שימוש
+                בקו 11 או בכל תחברוה ציבורית אחרת על מנת להימנע מפפקי תנועה.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading6">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse6"
+                aria-expanded="false"
+                aria-controls="flush-collapse6"
+              >
+                לאילו גילאים האירוע מתאים?
+              </button>
+            </h2>
+            <div
+              id="flush-collapse6"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-heading6"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                תערוכת העדלאידע של ניו-חלון מתאימה לכל גיל ולכל בני המשפחה.
+                בנוסף, יתקיים מתחם הצגות לפעוטת אשר מתאים לילדים מגיל שנה עד
+                שלוש.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-heading7">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapse7"
+                aria-expanded="false"
+                aria-controls="flush-collapse7"
+              >
+                האם קיימים מתחמי מזון ושתייה באירוע?
+              </button>
+            </h2>
+            <div
+              id="flush-collapse7"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-heading7"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                בהוקרת מממני האירוע, בקבוקי מים מינרלים של מי עדן יחולקו חינם
+                לכל משתתף. כמו כן יפתח מזנון ייעודי מטעם חברת בורגרנאץ ממנו יהנו
+                מבקרי האירוע מארוחות בתשלום סמלי בלבד.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <hr />
+      <p>all rights are served, zomby-monkey ltd, 2023 Ⓒ</p>
+    </footer>
+  </body>
+</html>
