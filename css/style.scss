@@ -11,10 +11,10 @@
 
 body {
   //background-color: #f2cc0f;
-  margin: 0 !important;
-  height: 100vh !important;
-  width: 100vw !important;
-  box-sizing: border-box !important;
+  // margin: 0 !important;
+  //height: 100vh !important;
+  //width: 100vw !important;
+  //box-sizing: border-box !important;
   background-color: #8cbf3f !important ;
 }
 header {
@@ -29,7 +29,9 @@ hr {
   margin: 0 !important;
   color: #8cbf3f !important;
 }
-
+main .container-fluid {
+  width: 100;
+}
 //main {
 main p {
   width: 90%;
@@ -298,3 +300,6 @@ a[data-fancybox] img:hover {
   margin-top: 100px !important;
 }
 //**********************************testing area
+.my-mobile-view {
+  padding-top: 25%;
+}

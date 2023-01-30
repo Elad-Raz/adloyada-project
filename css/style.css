@@ -6,10 +6,6 @@
 }
 
 body {
-  margin: 0 !important;
-  height: 100vh !important;
-  width: 100vw !important;
-  box-sizing: border-box !important;
   background-color: #8cbf3f !important;
 }
 
@@ -24,6 +20,10 @@ hr {
   border: 2px solid !important;
   margin: 0 !important;
   color: #8cbf3f !important;
+}
+
+main .container-fluid {
+  width: 100;
 }
 
 main p {
@@ -276,4 +276,8 @@ a[data-fancybox] img:hover {
 
 .video-gallery iframe {
   margin-top: 100px !important;
+}
+
+.my-mobile-view {
+  padding-top: 25%;
 }/*# sourceMappingURL=style.css.map */
