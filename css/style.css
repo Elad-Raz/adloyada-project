@@ -89,6 +89,10 @@ main p {
   font-family: "Henny Penny", cursive;
 }
 
+.my-navbar-about {
+  width: 100vw !important;
+}
+
 .about-wrap-column {
   display: flex;
   flex-direction: column;
